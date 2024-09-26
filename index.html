@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Movie Land</h1>
+    </header>
+    <center>
+        <nav>
+            <ul>
+                <li><a href="#movies">Movies</a></li> 
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <input type="text" id="search-bar" placeholder="Search for movies...">
+        <button onclick="searchMovies()">Search</button>
+    </center>
+   
+    <main>
+        <section id="movies">
+            <h2>Featured Movies</h2>
+            <div class="movie-card">
+                <img src="D:\Brainwave\images.jpg\premalu.jpg" alt="Movie 1">
+                <h3>premalu</h3>
+                <p>2024 · Romantic comedy </p>
+                <button onclick="alert('More info about Movie 1')">More Info</button>
+            </div>
+            <div class="movie-card">
+                <img src="images.jpg/joe.jpg" alt="Movie 2">
+                <h3>Joe</h3>
+                <p>Joe is a 2023 Indian Tamil-language romantic drama film</p>
+                <button onclick="alert('More info about Movie 2')">More Info</button>
+            </div>
+            <div class="movie-card">
+                <img src="D:\Brainwave\images.jpg\committee.jpg" alt="Movie 3">
+                <h3>Committee Kurrollu</h3>
+                <p>Committee Kurrollu is a 2024 Indian Telugu -language comedy drama film</p>
+                <button onclick="alert('More info about Movie 3')">More Info</button>
+            </div>
+            
+            <div class="movie-card">
+                <img src="D:\Brainwave\images.jpg\om.jpg">
+                <h3>Om Bheem Bush</h3>
+                <p>Om Bheem Bush is a 2024 Indian Telugu -language horror comedy film </p>
+                <button onclick="alert('More info about Movie 2')">More Info</button>
+            </div>
+            <div class="movie-card">
+                <img src="D:\Brainwave\images.jpg\love.jpg">
+                <h3>Love Guru</h3>
+                <p>Mar 25, 2024 · Love Guru (Telugu)Comedy ,Drama film</p>
+                <button onclick="alert('More info about Movie 3')">More Info</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <center><h2>About Us</h2></center>
+            <p>At Movie Land, we are passionate about bringing you the latest and greatest in cinema. Our team curates a selection of movies from various genres to ensure that every movie lover finds something they will enjoy.</p>
+        </section>
+        
+        <section id="contact">
+            <center><h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out:</p>
+            <p>Email: <a href="mailto:info@movieland.com">info@movieland.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </center>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Movie Land. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
